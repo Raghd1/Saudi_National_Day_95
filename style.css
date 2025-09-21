@@ -1,0 +1,120 @@
+*{
+   /* margin: 0;*/
+    padding: 0;
+    /*box-sizing: border-box;*/
+    font-family: Fustat;
+}
+/*
+body{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(/imgs/bg2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}*/
+a{
+  color: #041b21;
+  text-decoration: none;
+}
+a:hover{
+  color: #fff;
+
+}
+.main {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 20px;
+  gap: 16px;
+  margin-top: 130px;
+  /*background-color: #008449;*/
+  
+}
+/*.main_img {
+    max-width: 100%; height: auto;
+    padding: 16px;
+}*/
+.main_heading{
+    font-family: Fustat;
+    color: #041b21;
+    font-size: 35px;
+}
+.main_btn{
+    font-family: Fustat;
+    font-size: 25px;
+    font-weight: bold;
+    margin: 15px;
+    margin-bottom: 140px;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+}
+.main_btn:hover{
+  color: #fff;
+  background-color:#041b21 ;
+}
+.next_btn:hover{
+  background-color: #008449;
+}
+/*/////////////////////////////////////////////////////*/
+#second_page{
+  text-align: center;
+  direction: rtl;
+}
+.question{
+  color: #041b21;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+}
+.question3{
+  color: #fff;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+}
+.options{
+  font-size: 25px;
+  font-family: alan sans;
+  color: #fff;
+}
+.next_btn{
+  font-family: Fustat;
+    font-size: 22px;
+    font-weight: bold;
+    margin: 25px;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+}
+/*/////////////////////////////////////////////////*/
+#third_page{
+  text-align: center;
+  direction: rtl;
+}
+#forth_page{
+  text-align: center;
+  direction: rtl;
+  font-family: Fustat;
+}
+.third_options{
+  font-size: 25px;
+  font-weight: bold;
+  color: wheat;
+}
+.fifth_page{
+  text-align: center;
+}
+
+@media only screen and (max-width: 480px) {
+  /* Styles specific to screens 480px wide or less */
+  body {
+    font-size: 14px;
+  }
+  .main {
+    width: 100%;
+  }
+}
